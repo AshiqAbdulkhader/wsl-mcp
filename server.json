@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.AshiqAbdulkhader/wsl-mcp",
+  "description": "A Model Context Protocol server for managing WSL distributions and command execution",
+  "repository": {
+    "url": "https://github.com/AshiqAbdulkhader/wsl-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "wsl-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
