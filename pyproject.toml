@@ -15,3 +15,6 @@ dependencies = [
 
 [project.scripts]
 wsl-mcp = "wsl:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["wsl.py"]
