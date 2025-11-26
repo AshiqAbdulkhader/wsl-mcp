@@ -1,10 +1,13 @@
 [project]
 name = "wsl-mcp"
 version = "0.1.0"
-description = "Add your description here"
+description = "MCP server for WSL management"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "httpx>=0.28.1",
     "mcp[cli]>=1.22.0",
 ]
+
+[project.scripts]
+wsl-mcp = "wsl:main"

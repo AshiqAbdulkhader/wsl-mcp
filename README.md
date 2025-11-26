@@ -1,0 +1,1 @@
+mcp-name: io.github.AshiqAbdulkhader/wsl-mcp
